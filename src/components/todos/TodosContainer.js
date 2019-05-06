@@ -21,6 +21,10 @@ mapStateToProps = state => {
   }
 }
 
+mapDispatchToProps = dispatch = {
+  
+}
+
 
 
 
