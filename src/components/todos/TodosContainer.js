@@ -22,7 +22,9 @@ mapStateToProps = state => {
 }
 
 mapDispatchToProps = dispatch = {
-  
+  return {
+    delete: todoText => dispatch({type: 'DELETE_TODO', payload: todoText })
+  }
 }
 
 
