@@ -2,8 +2,9 @@ import React from 'react'
 
 const Todo = props => {
   <div>
+    <span>{props.text}</span>
   </div>
-  <li>{props.text}</li>
+  
 }
 
 export default Todo;
